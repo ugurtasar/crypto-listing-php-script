@@ -1,0 +1,5 @@
+RewriteEngine on
+Options -MultiViews
+RewriteBase /
+RewriteRule ^$ index.php [L]
+RewriteRule ^([A-Za-z0-9-]+)?$ single.php?slug=$1 [NC,QSA]
