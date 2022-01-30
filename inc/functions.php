@@ -1,12 +1,6 @@
 <?php
 /***************************************************************************
-*
-*   Kriptolist Script v1
-*   -------------------------------------
-*   Bu script platformumuzda ücretsiz olarak sunulmuştur.
-*   -------------------------------------
-*   Copyright 2021 - www.scriptler.org
-*
+* https://github.com/ugurtasar/
 ***************************************************************************/
 $coinsArr = json_decode(file_get_contents('coins.json'),true);
 
