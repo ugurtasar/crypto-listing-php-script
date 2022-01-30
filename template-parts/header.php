@@ -1,12 +1,6 @@
 <?php
 /***************************************************************************
-*
-*   Kriptolist Script v1
-*   -------------------------------------
-*   Bu script platformumuzda ücretsiz olarak sunulmuştur.
-*   -------------------------------------
-*   Copyright 2021 - www.scriptler.org
-*
+* https://github.com/ugurtasar/
 ***************************************************************************/
 if(isset($_GET['tvwidgetsymbol'])){
 	$coinName = str_replace('USDT', '', explode(':', $_GET['tvwidgetsymbol'])[1]);
