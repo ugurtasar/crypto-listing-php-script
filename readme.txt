@@ -1,37 +1,15 @@
-/***************************************************************************
-*
-*   Kriptolist Script v1
-*   -------------------------------------
-*   Bu script platformumuzda ücretsiz olarak sunulmuştur.
-*   -------------------------------------
-*   Copyright 2021 - www.scriptler.org
-*
-***************************************************************************/
-
 ##############################
-###### GEREKSİNİMLER #########
+###### REQUIREMENTS #########
 ##############################
 
 - PHP > 7.0
 
-Dosyaları düzenlerken windows için "notepad++" veya "vscode" kullanmanızı tavsiye ederim.
-Notepad++ indirmek için linki ziyaret ediniz:
-https://notepad-plus-plus.org/downloads/v8.1.3/
-VSCODE indirmek için linki ziyaret ediniz:
-https://code.visualstudio.com/download
-
 ########################
-###### KURULUM #########
+###### SETUP #########
 ########################
 
-"inc/config.php" dosyasını açıp alanları isteğinize göre güncelleyiniz.
-Son olarak tüm dosyalarınızı hostunuzda ana dizine yükleyiniz.
-"coins.json" dosyasını düzenleyerek listelenen coinleri güncelleyebilirsiniz.
+1) Open the "inc/config.php" file and update the fields as you wish.
+2) Upload all your files to the main directory on your host.
+3) Its done.
 
-########################
-###### İLETİŞİM ########
-########################
-
-https://scriptler.org/profil/brown
-
-Bizi desteklediğiniz için teşekkürler.
+You can update the listed coins by editing the "coins.json" file.
